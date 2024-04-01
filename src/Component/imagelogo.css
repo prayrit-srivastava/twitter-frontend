@@ -1,0 +1,15 @@
+.userlogo{
+    height: 60px;
+    width: 60px;
+    border: none;
+    border-radius: 30px;
+    display: inline;
+}
+.userlogoforPost{
+    margin-top: 10px;
+    height: 40px;
+    width: 40px;
+    border: none;
+    border-radius: 30px;
+    display: inline;
+}

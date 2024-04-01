@@ -1,0 +1,48 @@
+#aside-button{
+    display: flex;
+    flex-direction: column;
+    width: 23%;
+    border-right: 1px solid rgb(209, 209, 209);
+    
+}
+#aside-button button{
+    /* background-color: white; */
+    background-color: inherit;
+    border: none;
+    font-size: large;
+    margin-left: 20px;
+}
+.css-1dbjc4n{
+    width: 30px;
+    height: 30px;
+    /* margin-top: 20px;
+    margin-right: 0px; */
+
+}
+span{
+    padding-top: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    font-size: 25px;
+    padding-left: 30px;
+    /* width: 50%; */
+}
+span:hover{
+    font-weight: 600;
+}
+span:hover{
+    background-color: azure;
+    border-bottom-left-radius: 99px;
+    border-bottom-right-radius: 99px;
+    border-top-left-radius: 99px;
+    border-top-right-radius: 99px;
+}
+
+#post-button{
+    width: 250px;
+    height: 30px;
+    border-radius: 20px;
+    color: white;
+    font-size: 20px;
+}

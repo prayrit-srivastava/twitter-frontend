@@ -1,0 +1,51 @@
+.ximage{
+    height: 80%;
+    width: 30%;
+}
+#form-id > input{
+    padding: 2%;
+    margin: 2%;
+    border-radius: 10px;
+    border: 1px solid grey;
+}
+#form-id > input[type="submit"]{
+    font-size: large;
+}
+#signup{
+    display: flex;
+    width: 100;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+#signup-page{
+    width: 40%;
+
+}
+#Signin-button{
+    background-color: white;
+    border: solid 1px grey;
+    border-radius: 10px;
+    color: blue;
+    width: 40vh;
+    height: 6vh;
+    font-size: 3vh;
+}
+.error{
+    background-color: rgb(252, 197, 197);
+    padding:10px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+}
+.error button{
+    background-color: inherit;
+    border: none;
+    opacity: 1;
+    color: red;
+    font-family: 'Times New Roman', Times, serif;
+}
+.error button:hover{
+        border: 1px solid red;
+        padding-top: 0px;
+}

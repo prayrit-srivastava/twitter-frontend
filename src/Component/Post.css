@@ -1,0 +1,57 @@
+.icon{
+    height: 20px;
+    width: 20px;
+}
+.post-footer{
+    display: flex;
+    flex-Direction:row;
+    justify-Content:space-around;
+}
+.like-footer{
+    display : flex;
+    flex-Direction : row;
+    padding-right: 10px;
+}
+.like-footer :hover{
+    cursor: pointer;
+}
+.image{
+    border: 1px sold black;
+    border-radius: 10px;
+    width: 100%;
+    /* padding-right: 100px; */
+}
+.caption{
+    margin-top: 5px;
+    margin-bottom: 15px;
+    padding-left:10px;
+    padding-top:10px;
+}
+.container{
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    /* background-color: aqua; */
+}
+.container:hover{
+    /* background-color:   rgb(245, 244, 244); */
+}
+.like-footer button{
+    background-color: transparent;
+    border: none;
+}
+.iconC{
+    height: 20px;
+    width: 20px;
+}
+.iconC path {
+    fill: red;
+  }
+.Postheader{
+    display: flex;
+    flex-direction:row;
+    padding-left:10px;
+}
+.postcontainer{
+    width: 100%;
+}

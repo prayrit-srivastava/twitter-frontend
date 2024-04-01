@@ -1,0 +1,23 @@
+.msgdiv{
+    width:30%;
+    border-left: 1px solid rgb(209, 209, 209);
+    padding-left:50px ;
+}
+.container-chat{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    border-bottom: 1px solid rgb(211, 211, 211);
+    box-shadow: 2px 2px 4px #888888;
+}
+.container-chat .content{
+    margin: 10px;
+    width: 100%;
+}
+.container-chat .msg{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+margin: 10px;
+
+}
